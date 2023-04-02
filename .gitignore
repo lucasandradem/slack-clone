@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# build
+/dist
+/build
+.eslintcache
+
+# test
+coverage
+
+# ides
+/.idea
+
+# logs
+*.log
+
+# macOS
+.DS_Store
+/test-results/
+/playwright-report/
+/playwright/.cache/
